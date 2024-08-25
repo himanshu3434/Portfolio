@@ -7,12 +7,12 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 function Hero() {
   return (
     <div>
-      <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.12] bg-grid-black/[0.2] relative flex items-center justify-center">
+      <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.12] bg-grid-black/[0.2]  relative flex items-center justify-center">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
         <div className="text-white sm:px-40 px-10">
           <div className="flex flex-col justify-center items-center sm:items-start sm:flex-row sm:space-x-52">
-            <div className="order-2 sm:order-1">
+            <div className="order-2 sm:order-1 ">
               <div className="flex items-center ">
                 <TextGenerateEffect
                   words={"Namaste"}
@@ -27,7 +27,7 @@ function Hero() {
                 <h1 className="text-[30px] sm:text-[40px] font-semibold">
                   I&apos;m Himanshu Yadav
                 </h1>
-                <h2 className="my-3 font-semibold text-gray-200 ">
+                <h2 className="my-3 font-semibold text-purple ">
                   {" "}
                   <span className="text-blue-300 "> {"<Role>"} </span>
                   Full Stack Developer{" "}
@@ -40,11 +40,14 @@ function Hero() {
                 </h2>
 
                 <div className="text-center sm:text-left">
-                  <HeroButton />
+                  <HeroButton
+                    url="https://drive.google.com/file/d/1-m2QcTr4E-9hJWll-hVOMO7hxYG941LY/view?usp=sharing"
+                    text="Download Resume"
+                  />
                 </div>
               </div>
             </div>
-            <div className="order-1 sm:order-2 bg-gradient-to-b from-transparent to-blue-300 rounded-lg ">
+            <div className="order-1 sm:order-2 bg-gradient-to-b from-transparent to-orange-200 rounded-lg ">
               <img
                 src="/image1.png"
                 alt=""
