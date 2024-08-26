@@ -16,24 +16,24 @@ function Hero() {
               <div className="flex items-center ">
                 <TextGenerateEffect
                   words={"Namaste"}
-                  className="text-orange-400  text-[60px] sm:text-[90px] "
+                  className="text-orange-400  text-[60px] sm:text-[90px] text-center sm:text-left "
                 />
                 <FaPrayingHands
                   className="text-4xl sm:text-[60px] "
                   color="orange"
                 />
               </div>
-              <div className=" ">
+              <div className="text-center sm:text-left ">
                 <h1 className="text-[30px] sm:text-[40px] font-semibold">
                   I&apos;m Himanshu Yadav
                 </h1>
-                <h2 className="my-3 font-semibold text-purple ">
+                <h2 className="my-3 font-semibold text-purple  ">
                   {" "}
                   <span className="text-blue-300 "> {"<Role>"} </span>
                   Full Stack Developer{" "}
                   <span className="text-blue-300"> {"</Role>"} </span>
                 </h2>
-                <h2 className="max-w-[50vw] sm:max-w-[20vw] my-5 text-gray-400 ">
+                <h2 className="max-w-[100vw] sm:max-w-[20vw] my-5 text-gray-400  ">
                   {" "}
                   I love to solve complex problem whether they are in real life
                   or in code.
