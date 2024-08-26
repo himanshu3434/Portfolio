@@ -5,9 +5,9 @@ import { socials } from "../data";
 function Contact() {
   return (
     <div className="mt-16">
-      <div className="h-[30rem] w-full dark:bg-black bg-white  dark:bg-grid-custom-white/[0.03] bg-grid-custom-black/[0.2]  flex  justify-center ">
+      <div className="h-[30rem] w-full bg-black   dark:bg-grid-custom-white/[0.03] bg-grid-custom-black/[0.2]  flex  justify-center ">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white sm:[mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] [mask-image:radial-gradient(ellipse_at_center,transparent_90%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black  sm:[mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] [mask-image:radial-gradient(ellipse_at_center,transparent_90%,black)]"></div>
 
         <div className=" max-w-[80vw] mx-auto sm:max-w-[60vw]">
           <div className="text-3xl sm:text-5xl font-bold text-white text-center">
