@@ -15,7 +15,7 @@ function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="text-white rounded-[3rem] overflow-hidden transform hover:scale-110 transition duration-300 ease-in-out hover:ease-in-out relative bg-black-200 w-[70vw] h-[43vh] sm:w-[20vw]   sm:h-[54vh] 2xl:h-[48vh] "
+              className="text-white rounded-[3rem] overflow-hidden transform hover:scale-110 transition duration-300 ease-in-out hover:ease-in-out relative bg-black-200 w-[70vw] h-[43vh] sm:w-[20vw]   sm:h-[59vh] 2xl:h-[48vh] "
             >
               <div className="mb-2  h-[20vh] sm:h-[28vh]  overflow-hidden  ">
                 <img
