@@ -41,7 +41,7 @@ function Hero() {
 
                 <div className="text-center sm:text-left">
                   <HeroButton
-                    url="https://drive.google.com/file/d/1-m2QcTr4E-9hJWll-hVOMO7hxYG941LY/view?usp=sharing"
+                    url={process.env.Resume_Link || ""}
                     text="Download Resume"
                   />
                 </div>
